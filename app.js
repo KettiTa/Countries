@@ -1,4 +1,4 @@
-//dropdown
+//add dropdown
 const countries = ['UK', 'Latvia','Japan'],
     select = document.getElementById( 'countries' );
 
