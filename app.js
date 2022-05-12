@@ -14,18 +14,12 @@ function display(){
     var e = document.getElementById("countries");
     var index = e.selectedIndex;
     if(index==0){
-        document.getElementById("eng").style.display = 'block'
-        document.getElementById("lv").style.display = 'none'
-        document.getElementById("jp").style.display = 'none'
+        document.querySelector(".language").innerHTML = "Hello!"
     }
     else if(index==1){
-        document.getElementById("eng").style.display = 'none'
-        document.getElementById("lv").style.display = 'block'
-        document.getElementById("jp").style.display = 'none'
+        document.querySelector(".language").innerHTML = "Sveiks!"
     }
     else if(index==2){
-        document.getElementById("eng").style.display = 'none'
-        document.getElementById("lv").style.display = 'none'
-        document.getElementById("jp").style.display = 'block'
+        document.querySelector(".language").innerHTML = "こんにちは！"
     }
 }
